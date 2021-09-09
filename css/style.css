@@ -2,17 +2,19 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arimo', sans-serif;
+    font-family: 'Heebo', sans-serif;
   }
 header{
     background-image: url(../img/jumbo.png);
+    background-size: cover;
+    padding-top: 10px;
 }
 
 .container{
     max-width: 920px;
     width: 100%;
     margin: auto;
-    border: 3px solid;
+    /*border: 3px solid;*/
 }
 
 .row::after{
@@ -41,9 +43,55 @@ header{
 
 /*Nav bar style*/
 
-a {
+nav a img{
     display: inline-block;
 }
 
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 5px;
+    padding-top: 5px;
+    text-align: center;
+}
 
+a{
+    text-decoration: none;
+    color: white;
+    margin: 0 5px;
+}
 
+.nav_-button_-container{
+    text-align: right;
+    display: inline-block;
+    text-align: right;
+    margin-top: 5px;
+}
+
+.nav-button{
+    color: black;
+    background-color: white;
+    padding: 11px;
+    border-radius: 25px;
+    line-height: 20px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.hero-container{
+    margin-left: calc(100% / 6);
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.hero-text-title{
+    font-size: 50px;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.hero-text{
+    color: white;
+    font-size: 20px;
+}
