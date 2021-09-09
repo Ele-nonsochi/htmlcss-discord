@@ -14,7 +14,6 @@ header{
     max-width: 920px;
     width: 100%;
     margin: auto;
-    /*border: 3px solid;*/
 }
 
 .row::after{
@@ -121,3 +120,46 @@ ul{
     background-color:rgba(35,39,42,255);
     color: white;
 }
+
+/*MAIN*/
+
+.main-section{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.section-img{
+    height: 350px;
+    float: right;
+    padding-right: 30px;
+}
+
+.main-fix{
+    padding-right: 40px;
+    padding-left: 20px;
+    float: right;
+    top: 50px;
+}
+
+.section-title{
+    font-size: 30px;
+}
+
+.section-text{
+    font-size: 15px;
+}
+
+.bg-even{
+    background-color: rgba(246,246,246,255);
+}
+
+.even-float{
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+.section-big{
+    
+}
+
+
