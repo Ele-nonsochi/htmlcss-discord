@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arimo', sans-serif;
+  }
+header{
+    background-image: url(../img/jumbo.png);
+}
+
+.container{
+    max-width: 920px;
+    width: 100%;
+    margin: auto;
+    border: 3px solid;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Colon calc */
+
+.col-1-6{
+    width: calc( 100% / 6);
+}
+
+.col-2-6{
+    width: calc( 100% / 6 * 2);
+}
+
+.col-4-6{
+    width: calc( 100% / 6 * 4);
+}
+
+.row > *{
+    float: left;
+}
+
+/*Nav bar style*/
+
+a {
+    display: inline-block;
+}
+
+
+
